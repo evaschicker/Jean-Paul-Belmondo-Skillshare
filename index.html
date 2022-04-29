@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">    <link rel="stylesheet" href="style.css">
+    <title>Jean-Paul Belmondo</title>
+</head>
+<body>
+    <header class="header">
+        <!-- <div class="wrap"> -->
+        <div>
+            <img src="./images/jpb_logo.png" alt="" class="header-logo">
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#">Life</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">Awards</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro" tabindex="0">
+            <div class="wrap wrap-column wrap-center">
+                <header>
+                    <h1>Welcome to<br>Jean-Paul Belmondo's<br>Fan Page!</h1>
+                </header>
+                <img src="./images/Belmondo-1200x883.jpg" alt="Image of Jean-Paul Belmondo smoking a cigarette in black & white" class="intro-image">
+                <p class="intro-text">Jean-Paul Belmondo was a French actor, initially associated with the New Wave of the 1960s and a major French film star for several decades from the 1960s. His best known credits include Breathless (1960), That Man from Rio (1964), Pierrot le Fou (1965), Borsalino (1970), and The Professional (1981). He was born in 1933, and died in 2021.</p>
+            </div>
+        </section>
+
+        <section class="find-out-more" tabindex="1">
+            <div class="wrap wrap-column wrap-center">
+                <h2>Find out more</h2>
+                <p>Discover Jean-Paul Belmondo's world of film. Click on the link below.</p>
+                <a href="https://en.wikipedia.org/wiki/Jean-Paul_Belmondo" class="text-anchor" target="_blank" aria-label="Read more about Jean-Paul Belmondo's filmography">Belmondo. His life and his movies. (External link)</a>
+            </div>
+        </section>
+
+        <section>
+            <div class="wrap wrap-column" tabindex="2">
+                <h3>Contact Me</h3>
+                <p>If you like to join the Jean-Paul Belmondo's fan club, fill out the form below.</p>
+
+                <form action="">
+                <p>All fields with an * are required.</p>
+
+                <div class="form-group">
+                    <label for="name">Name *</label>
+                    <input type="text" name="" id="name" placeholder="Enter name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="email" name="" id="email" placeholder="Enter email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="phone">Enter your phone number:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="123-456-7890" required>
+                </div>
+
+                <div class="form-group">
+                    <fieldset>
+                        <legend>Nature of enquiry</legend>
+                        <div>
+                            <input type="checkbox" name="enquiry" id="his-films">
+                            <label for="his-films">His films</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" name="enquiry" id="his-life">
+                            <label for="his-life">His life</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" name="enquiry" id="other">
+                            <label for="other">Other items</label>
+                        </div>
+
+                    </fieldset>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="" id="message" rows="8" placeholder="Enter message here"></textarea>
+                </div>
+
+                <button type="submit">Submit</button>
+
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+            <small>&copy;Copyright Eva Schicker 2022</small>
+    </footer>
+    
+</body>
+</html>
