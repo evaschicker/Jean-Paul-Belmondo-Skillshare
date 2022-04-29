@@ -102,9 +102,15 @@ h2, h3 {
     text-align: center;
 }
 
-.intro-image {
+/* OLD IMAGE CSS*/
+/* .intro-image {
     height: auto;
-    width: 600px;
+    max-width: 600px;
+} */
+
+.intro-image {
+    height: 40vh;
+    width: auto;
 }
 
 .intro-text {
@@ -186,3 +192,28 @@ footer {
     padding: 40px;
     width: 100vw;
 }
+
+@media screen and (max-width: 560px) {
+
+    .header {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 26px 8px;
+    }
+    
+    .header-logo {
+        height: auto;
+        width: 60px;
+    }
+
+    .intro-image {
+        height: 20vh;
+        width: auto;
+    } 
+
+    form {
+        min-width: 320px;
+        padding: 12px;
+    }
+  }
